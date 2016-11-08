@@ -8,3 +8,4 @@
     use Rack::Auth::Basic, "Restricted Area" do |username, password|
       [username, password] == [AUTH_CONFIG['user'], AUTH_CONFIG['pass']]
     end
+[[tag]]
